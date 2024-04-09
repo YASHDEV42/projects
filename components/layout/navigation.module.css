@@ -81,11 +81,23 @@
 }
 @media (max-width: 768px) {
   .container {
-    width: 90vw;
+    width: 90vw; /* Adjusted width for smaller screens */
   }
 
   .navbar {
-    width: 70%;
-    justify-content: end;
+    width: 80vw; /* Increased width for better alignment of navbar items */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95vw; /* Further adjusted width for very small screens */
+  }
+  .logo {
+    font-size: 1em;
+  }
+  .navbar {
+    width: 90vw; /* Adjusted to provide more space for navbar items */
+    font-size: 0.8em;
   }
 }
