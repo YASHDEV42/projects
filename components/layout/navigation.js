@@ -25,7 +25,7 @@ const Navigation = () => {
       <div className={classes.container}>
         <div className={classes.logo}>
           <h2>
-            <Link className={classes.link} href="/">
+            <Link className={classes.link1} href="/">
               YA<span>SH</span>
             </Link>
           </h2>

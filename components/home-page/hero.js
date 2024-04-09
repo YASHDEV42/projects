@@ -22,7 +22,7 @@ const Hero = () => {
           </h3>
           <div className={classes.buttonContainer}>
             <button className={classes.Pbutton}>
-              <Link className={classes.link} href="/posts">
+              <Link className={classes.link} href="/projects">
                 See Projects
               </Link>
             </button>

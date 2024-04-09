@@ -16,6 +16,10 @@
 .logo {
   font-size: 1.2em;
   font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0;
 }
 
 .nav {
@@ -57,7 +61,11 @@
   text-decoration: none;
   margin: 0 0 0 1.5em;
 }
-
+.link1 {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
 .link:hover {
   color: inherit;
 }
