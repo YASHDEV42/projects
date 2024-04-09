@@ -80,3 +80,35 @@
 .link {
   color: inherit;
 }
+@media (max-width: 768px) {
+  .title,
+  .subTitle {
+    text-align: center; /* Centering text for smaller screens */
+  }
+
+  .title {
+    font-size: 2em; /* Smaller font size for smaller screens */
+  }
+
+  .buttonContainer {
+    width: 90%; /* Increasing width on smaller screens for better use of space */
+  }
+
+  .Pbutton,
+  .Sbutton {
+    width: 100%; /* Full width buttons on smaller screens */
+    margin: 5px 0; /* Adds margin for vertical spacing */
+    font-size: 1em; /* Smaller font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container,
+  .main {
+    width: 95vw; /* Increase width for very small screens */
+  }
+
+  .title {
+    font-size: 1.5em; /* Even smaller font size for very small screens */
+  }
+}

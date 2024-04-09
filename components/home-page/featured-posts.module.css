@@ -1,5 +1,5 @@
 .main {
-  height: 100vh;
+  height: min-100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   justify-content: center;
 }
 .container {
-  height: 100vh;
+  min-height: 100vh;
   width: 80vw;
   display: flex;
   flex-direction: column;
@@ -33,4 +33,31 @@
 }
 .title:hover::after {
   width: 23%;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5em; /* Smaller font size for tablets and smaller devices */
+  }
+
+  .title::after {
+    width: 20%; /* Adjust width for consistency */
+  }
+
+  .title:hover::after {
+    width: 40%; /* Allow more growth on hover to maintain visual effect */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.2em; /* Further reduce font size for very small devices */
+  }
+
+  .title::after {
+    width: 30%; /* Adjust static width for small screens */
+  }
+
+  .title:hover::after {
+    width: 60%; /* Increase hover width for a pronounced effect */
+  }
 }
