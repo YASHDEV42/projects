@@ -1,0 +1,80 @@
+.main {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.logo {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.nav {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #232323;
+  transition: all 0.5s ease-in-out;
+  color: #f1f1f1;
+}
+.container {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.link {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: inherit;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.link:hover::before {
+  height: 4px;
+  transform: scaleX(1);
+}

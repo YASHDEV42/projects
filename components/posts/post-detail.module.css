@@ -1,0 +1,40 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 2em;
+  letter-spacing: 1.75px;
+  font-weight: bold;
+  cursor: default;
+}
+.title::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 5px;
+  background-color: #232323;
+  transition: all 0.5s ease-in-out;
+}
+.title:hover::after {
+  width: 100%;
+}
+.img {
+  width: 80vw;
+  height: 50vh;
+}
