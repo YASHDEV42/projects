@@ -3,7 +3,7 @@ const projects = [
     title: "Quiz Yourself",
     image: "project-5.png",
     excerpt:
-      "This is my latest project and the biggest, a quizzes app using latest version of Next.Js 15.",
+      "This is my latest project and the biggest full-stack app, a quizzes app using latest version of Next.Js 15 and MongoDB",
 
     date: "2024-06-12",
     isFeatured: true,
