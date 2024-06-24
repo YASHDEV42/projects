@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: "Quiz Yourself",
+    image: "project-5.png",
+    excerpt:
+      "This is my latest project and the biggest, a quizzes app using latest version of Next.Js 15.",
+
+    date: "2024-06-12",
+    isFeatured: true,
+    link: "https://quiz-yourself.vercel.app/",
+  },
+  {
     title: "My Portfolio",
     image: "portfolio.png",
     excerpt:
@@ -26,7 +36,7 @@ const projects = [
       "This is an anime website. I've designed it to showcase the anime series and movies. I used ReactJs and React-Router to build this website.",
 
     date: "2021-03-29",
-    isFeatured: true,
+    isFeatured: false,
     link: "https://yahya-2005.github.io/react-anime/",
   },
   {
