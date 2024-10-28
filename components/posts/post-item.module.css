@@ -2,6 +2,7 @@
   box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
+  padding-bottom: 1rem;
 }
 .content {
   color: #232323;
@@ -10,6 +11,13 @@
   align-items: start;
   justify-content: space-around;
   padding: 1rem;
+}
+.icons_container {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+  width: 100%;
 }
 .title {
   font-size: 1.5em;

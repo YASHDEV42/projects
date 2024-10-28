@@ -1,13 +1,42 @@
 const projects = [
   {
+    title: "YASHSTORE",
+    image: "YASHSTORE.png",
+    excerpt:
+      "My latest project and the biggest full-stack app, an e-commerce app using latest version of Next.Js 15 for the front-end and the back-end, PostgresSQL with Prisma ORM for DB, Stripe for handle payments.",
+    date: "2024-06-12",
+    isFeatured: true,
+    link: "https://yashstore-eosin.vercel.app/",
+    tools: [
+      "NextJs",
+      "TailwindCSS",
+      "PostgresSQL",
+      "Prisma",
+      "Stripe",
+      "NextAuth",
+    ],
+  },
+  {
+    title: "YASHTASK",
+    image: "YASHTASK.png",
+    excerpt:
+      "NextJs task management app, where you can create, update, delete tasks, and you can also track the statues, using NextJs for both front and back-end and mongodb for DB.",
+
+    date: "2024-06-12",
+    isFeatured: true,
+    link: "https://task-mangement-cyan.vercel.app/",
+    tools: ["NextJs", "MongoDB", "TailwindCSS", "NextAuth"],
+  },
+  {
     title: "Quiz Yourself",
     image: "project-5.png",
     excerpt:
-      "This is my latest project and the biggest full-stack app, a quizzes app using latest version of Next.Js 15 and MongoDB",
+      "NextJs full-stack app, a quizzes app using latest version of Next.Js 15 and MongoDB, create take edit quizzes, and track your scores.",
 
     date: "2024-06-12",
     isFeatured: true,
     link: "https://quiz-yourself.vercel.app/",
+    tools: ["NextJs", "MongoDB", "TailwindCSS", "Kinde"],
   },
   {
     title: "My Portfolio",
@@ -18,6 +47,7 @@ const projects = [
     date: "2021-08-12",
     isFeatured: true,
     link: "https://yahyashannat-portfolio.netlify.app/",
+    tools: ["HTML", "CSS", "SASS", "JavaScript"],
   },
   {
     title: "Next Event",
@@ -28,6 +58,7 @@ const projects = [
     date: "2024-03-20",
     isFeatured: true,
     link: "https://next-js-events-two.vercel.app/",
+    tools: ["NextJs", "Firebase"],
   },
   {
     title: "Anime Website",
@@ -38,6 +69,7 @@ const projects = [
     date: "2021-03-29",
     isFeatured: false,
     link: "https://yahya-2005.github.io/react-anime/",
+    tools: ["ReactJs"],
   },
   {
     title: "Todo List",
@@ -48,6 +80,7 @@ const projects = [
     date: "2023-07-13",
     isFeatured: false,
     link: "https://yahya-2005.github.io/Todo-List/",
+    tools: ["ReactJs"],
   },
   {
     title: "Attack on titan",
@@ -58,6 +91,7 @@ const projects = [
     date: "2020-08-18",
     isFeatured: false,
     link: "https://attack-on-titan-yash.netlify.app/",
+    tools: ["HTML", "CSS"],
   },
   {
     title: "Old Portfolio",
@@ -68,6 +102,7 @@ const projects = [
     date: "2021-07-13",
     isFeatured: false,
     link: "https://yahyashannat-old-portfolio.netlify.app/",
+    tools: ["HTML", "CSS"],
   },
 ];
 export const getAllProjects = () => {

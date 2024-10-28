@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import classes from "./post-item.module.css";
 
 const PostItem = (props) => {
-  const { title, image, excerpt, date, slug, link } = props.project;
+  const { title, image, excerpt, date, slug, link, tools } = props.project;
   const formattedDate = new Date(date).toLocaleDateString("en-US", {
     day: "numeric",
     month: "long",
@@ -28,6 +27,18 @@ const PostItem = (props) => {
           <em>{formattedDate}</em>
         </time>
         <p className={classes.excerpt}>{excerpt}</p>
+      </div>
+      <div className={classes.icons_container}>
+        {tools.map((tool) => (
+          <div key={tool}>
+            <Image
+              src={`/icons/${tool}.png`}
+              alt={tool}
+              width={40}
+              height={40}
+            />
+          </div>
+        ))}
       </div>
     </a>
   );
