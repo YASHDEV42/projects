@@ -10,10 +10,10 @@ const projects = [
     tools: [
       "NextJs",
       "TailwindCSS",
-      "PostgresSQL",
-      "Prisma",
-      "Stripe",
-      "NextAuth",
+      "postgressql",
+      "prisma",
+      "stripe",
+      "nextauth",
     ],
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     date: "2024-06-12",
     isFeatured: true,
     link: "https://task-mangement-cyan.vercel.app/",
-    tools: ["NextJs", "MongoDB", "TailwindCSS", "NextAuth"],
+    tools: ["NextJs", "mongodb", "TailwindCSS", "nextauth"],
   },
   {
     title: "Quiz Yourself",
@@ -36,7 +36,7 @@ const projects = [
     date: "2024-06-12",
     isFeatured: true,
     link: "https://quiz-yourself.vercel.app/",
-    tools: ["NextJs", "MongoDB", "TailwindCSS", "Kinde"],
+    tools: ["NextJs", "mongodb", "TailwindCSS", "kinde"],
   },
   {
     title: "My Portfolio",
@@ -47,7 +47,7 @@ const projects = [
     date: "2021-08-12",
     isFeatured: true,
     link: "https://yahyashannat-portfolio.netlify.app/",
-    tools: ["HTML", "CSS", "SASS", "JavaScript"],
+    tools: ["html", "CSS", "sass", "javascript"],
   },
   {
     title: "Next Event",
@@ -58,7 +58,7 @@ const projects = [
     date: "2024-03-20",
     isFeatured: true,
     link: "https://next-js-events-two.vercel.app/",
-    tools: ["NextJs", "Firebase"],
+    tools: ["NextJs", "firebase"],
   },
   {
     title: "Anime Website",
@@ -69,7 +69,7 @@ const projects = [
     date: "2021-03-29",
     isFeatured: false,
     link: "https://yahya-2005.github.io/react-anime/",
-    tools: ["ReactJs"],
+    tools: ["reactjs"],
   },
   {
     title: "Todo List",
@@ -80,7 +80,7 @@ const projects = [
     date: "2023-07-13",
     isFeatured: false,
     link: "https://yahya-2005.github.io/Todo-List/",
-    tools: ["ReactJs"],
+    tools: ["reactjs"],
   },
   {
     title: "Attack on titan",
@@ -91,7 +91,7 @@ const projects = [
     date: "2020-08-18",
     isFeatured: false,
     link: "https://attack-on-titan-yash.netlify.app/",
-    tools: ["HTML", "CSS"],
+    tools: ["html", "CSS"],
   },
   {
     title: "Old Portfolio",
@@ -102,7 +102,7 @@ const projects = [
     date: "2021-07-13",
     isFeatured: false,
     link: "https://yahyashannat-old-portfolio.netlify.app/",
-    tools: ["HTML", "CSS"],
+    tools: ["html", "CSS"],
   },
 ];
 export const getAllProjects = () => {
