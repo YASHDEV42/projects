@@ -3,7 +3,7 @@ const projects = [
     title: "YASHBLOG",
     image: "YASHBLOG.png",
     excerpt: "YASHBLOG is a full-stack modern blogging platform featuring secure authentication, rich text editing, real-time interactions, and a beautiful responsive UI. The project is split into two main folders: a frontend built with Next.js 15 and React 19, and a backend built with Express.js and MongoDB.",
-    date: "2025-07-05",
+    date: "2025-08-11",
     isFeatured: true,
     link: "https://yashblog-hazel.vercel.app",
     tools: [
@@ -146,3 +146,4 @@ export const getAllProjects = () => {
 export const getFeaturedProjects = () => {
   return projects.filter((project) => project.isFeatured);
 };
+
