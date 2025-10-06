@@ -1,7 +1,25 @@
 const projects = [
   {
+    title: "YASHBLOG",
+    image: "YASHBLOG.png",
+    excerpt: "YASHBLOG is a full-stack modern blogging platform featuring secure authentication, rich text editing, real-time interactions, and a beautiful responsive UI. The project is split into two main folders: a frontend built with Next.js 15 and React 19, and a backend built with Express.js and MongoDB.",
+    date: "2025-07-05",
+    isFeatured: true,
+    link: "https://yashblog-hazel.vercel.app",
+    tools: [
+      "NextJs",
+      "TailwindCSS",
+      "shadcn-ui",
+      "redux",
+      "express-js",
+      "mongodb",
+      "jwt"
+    ]
+  },
+
+  {
     title: "YASHCHAT",
-    imgae: "YASHCHAT",
+    image: "YASHCHAT.png",
     excerpt: "YASHCHAT is a full-stack real-time chat application featuring secure user authentication, a modern UI, and real-time messaging using Socket.io. The project is split into two subfolders: a frontend built with Next.js, and a backend built with Express.js.",
     date: "2025-07-05",
     isFeatured: true,
@@ -9,11 +27,11 @@ const projects = [
     tools: [
       "NextJs",
       "TailwindCSS",
-      "shadcn/ui",
-      "Socket.io",
-      "Express.js",
+      "shadcn-ui",
+      "socket-io",
+      "express-js",
       "mongodb",
-      "JWT"
+      "jwt"
     ]
   },
   {
