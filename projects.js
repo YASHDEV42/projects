@@ -1,5 +1,22 @@
 const projects = [
   {
+    title: "YASHCHAT",
+    imgae: "YASHCHAT",
+    excerpt: "YASHCHAT is a full-stack real-time chat application featuring secure user authentication, a modern UI, and real-time messaging using Socket.io. The project is split into two subfolders: a frontend built with Next.js, and a backend built with Express.js.",
+    date: "2025-07-05",
+    isFeatured: true,
+    link: "https://yashchat-two.vercel.app/",
+    tools: [
+      "NextJs",
+      "TailwindCSS",
+      "shadcn/ui",
+      "Socket.io",
+      "Express.js",
+      "mongodb",
+      "JWT"
+    ]
+  },
+  {
     title: "YASHSTORE",
     image: "YASHSTORE.png",
     excerpt:
