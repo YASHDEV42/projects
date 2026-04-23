@@ -1,5 +1,20 @@
 const projects = [
   {
+    title: "YSHAI",
+    image: "YSHAI.png",
+    excerpt: "YASHBLOG is a full-stack modern blogging platform featuring secure authentication, rich text editing, real-time interactions, and a beautiful responsive UI. The project is split into two main folders: a frontend built with Next.js 15 and React 19, and a backend built with Express.js and MongoDB.",
+    date: "2026-04-23",
+    isFeatured: true,
+    link: "https://www.yshai.cloud/en",
+    tools: [
+      "NextJs",
+      "NestJs",
+      "postgressql",
+      "Redis",
+      "docker",
+    ]
+  },
+  {
     title: "YASHBLOG",
     image: "YASHBLOG.png",
     excerpt: "YASHBLOG is a full-stack modern blogging platform featuring secure authentication, rich text editing, real-time interactions, and a beautiful responsive UI. The project is split into two main folders: a frontend built with Next.js 15 and React 19, and a backend built with Express.js and MongoDB.",
