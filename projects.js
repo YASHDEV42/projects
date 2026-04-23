@@ -2,7 +2,7 @@ const projects = [
   {
     title: "YSHAI",
     image: "YSHAI.png",
-    excerpt: "YASHBLOG is a full-stack modern blogging platform featuring secure authentication, rich text editing, real-time interactions, and a beautiful responsive UI. The project is split into two main folders: a frontend built with Next.js 15 and React 19, and a backend built with Express.js and MongoDB.",
+    excerpt: "YSHAI is a full-stack, AI-powered social media management platform built for creators, brands, and teams. It combines content creation, multi-platform publishing, scheduling, analytics, and collaboration in one modern product.",
     date: "2026-04-23",
     isFeatured: true,
     link: "https://www.yshai.cloud/en",
