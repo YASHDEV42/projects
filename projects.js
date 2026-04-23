@@ -8,7 +8,7 @@ const projects = [
     link: "https://www.yshai.cloud/en",
     tools: [
       "NextJs",
-      "NestJs",
+      "NestJS",
       "postgressql",
       "Redis",
       "docker",
